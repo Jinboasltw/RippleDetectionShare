@@ -4,7 +4,7 @@ clc;
 warning('off')
 
 %%% ============ MAKE SURE THE PATHS ARE CORRECT =============== %%%
-% Set path to the parant folder containing the analysis scripts downloaded from zenodo:
+% Set path to the parant folder containing the analysis scripts
 parentfolder = '/home/user07/Project/RippleDetection/';
 % Set path for the required toolboxes:
 path_to_toolboxes = '/home/user07/Project/RippleDetection/Toolbox';
