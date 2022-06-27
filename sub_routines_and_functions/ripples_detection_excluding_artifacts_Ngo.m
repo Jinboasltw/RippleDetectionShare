@@ -42,7 +42,7 @@ end
 [rmsSignal,~] = envelope(bp_signal,rmsWin,'rms');
 
 % smooth rms signal
-rmsSignal_smooth = smooth(rmsSignal, rmsWin, 'moving');% window must be odd
+rmsSignal_smooth = smooth(rmsSignal, rmsWin, 'moving'); % must be odd, this function will correction by -1 if it is even
 
 % avg and std within NREM and actifact-free duration
 %avg = mean(rmsSignal_smooth(mask==1));
